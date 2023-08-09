@@ -67,6 +67,7 @@ Returning a prediction with both (predicting classes, boundary boxes for them, a
 However, for annotating the images for the training of the Mask-RCNN model, we have used the VIA image annotator free tool. We can see that annotation time for all input files can take a long time, 2-3 minutes/image. In addition, the annotation for Mask-RCNN is stored as a JSON file containing the coordinates of the points in the images file. This way of storing annotation cause trouble when applying the augmentation approaches.
 For this model, we have completed annotating 200 images (150 for training, 50 for testing), and the output result is quite promising, with around 70% accuracy. Still, we didn't go further with this model because of the considerable time just for annotation total. 
 The following figure is an example of predicting the result:
+
 ![Result](/images/12.png)
 
 ## Baseline Model 2 – Unet
