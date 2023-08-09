@@ -76,6 +76,7 @@ UNET Architect
 In the first try, we converted the annotation from Mask RCNN to Unet mask files with background pixels having value '0' and the implants' pixel having the value '255'. The code for the first try has been implemented as implementing the UNET for the single label model, which is to answer "is there any implant in the providing picture?" instead of "which type of the implant is in the picture?". The problem was how we set the value for the implant's pixel.
 
 The value '255' was set for the Straumann implant's pixel
+
 ![Image](/images/14.png)
 
 The correct values are assigned to classes
@@ -189,7 +190,7 @@ https://youtu.be/lH-rBGUS_MA
 Publication at Frontier Magazine: https://www.frontiersin.org/articles/10.3389/fphar.2022.948283/full
 
 # TEAM MEMBERS
-Qui Tran Van 
-Thi Hong Dang
-Chanaka Nimantha Kaluarachchi 
+Qui Tran Van <br>
+Thi Hong Dang <br>
+Chanaka Nimantha Kaluarachchi <br>
 Nikhitha Chintha
